@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Restaurant Links</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        font-family: 'Inter', sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #ffffff;
+        text-align: center;
+        color: #222;
+    }
+
+    .container {
+        max-width: 450px;
+        margin: auto;
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 26px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #ff6f3c;
+        color: white;
+        text-decoration: none;
+        padding: 14px 20px;
+        border-radius: 10px;
+        margin: 10px 0;
+        font-size: 18px;
+        font-weight: 500;
+        transition: 0.2s;
+    }
+
+    .btn:hover {
+        background: #ff5722;
+    }
+
+    .btn img {
+        width: 22px;
+        height: 22px;
+        margin-right: 10px;
+    }
+
+    .qr-section {
+        margin-top: 30px;
+    }
+
+    .qr-section img {
+        width: 200px;
+        border-radius: 8px;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Welcome to Our Restaurant</h1>
+
+    <!-- MENU BUTTON -->
+    <a class="btn" href="https://your-website.com/menu" target="_blank">
+        🍽️ View Menu
+    </a>
+
+    <!-- PLATFORM LINKS -->
+    <a class="btn" href="https://instagram.com/yourpage" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png"> Instagram
+    </a>
+
+    <a class="btn" href="https://swiggy.com/yourstore" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968885.png"> Swiggy
+    </a>
+
+    <a class="btn" href="https://zomato.com/yourstore" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/831/831329.png"> Zomato
+    </a>
+
+    <a class="btn" href="https://your-app-download.com" target="_blank">
+        📱 Download App
+    </a>
+
+    <!-- QR CODE SECTION -->
+    <div class="qr-section">
+        <h2>Scan to open this page</h2>
+
+        <!-- AUTO QR CODE (replace YOUR-LINK-HERE) -->
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=YOUR-LINK-HERE" alt="QR Code">
+    </div>
+
+</div>
+
+</body>
+</html>
